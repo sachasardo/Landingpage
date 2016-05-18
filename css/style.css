@@ -309,6 +309,10 @@ home-page-select-box{
   margin-left: 42%;
   padding: 5px;
   width: 16%;
+  font-family: "Montserrat";
+  }
+  .price2 {
+    font-style: italic;
   }
 .contact
 {
