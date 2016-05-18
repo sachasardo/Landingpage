@@ -1,0 +1,377 @@
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.pt20{padding-top:20px;}
+.pt30{padding-top:30px;}
+.pt40{padding-top:40px;}
+.pt50{padding-top:50px;}
+.pt60{padding-top:60px;}
+.pt80{padding-top:80px;}
+.pt100{padding-top: 100px;}
+
+.pb10{padding-bottom:10px;}
+.pb20{padding-bottom:20px;}
+.pb30{padding-bottom:30px;}
+.pb40{padding-bottom:40px;}
+.pb50{padding-bottom:50px;}
+.pb60{padding-bottom:60px;}
+.pb80{padding-bottom:80px;}
+.pb100{padding-bottom:100px;}
+.btn-full-width{width:100%;font-size:16px;}
+.btn-half-width{width:50%;font-size:16px;}
+.uppercase{text-transform: uppercase;}
+.bg-blue{background-color:rgb(31, 67, 129); }
+.bg-gray{background-color:rgb(122,126,133);}
+.blue{color:rgb(31, 67, 129); }
+.gray{color:rgb(122,126,133);}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.btn:hover{color:#eee;}
+.flash-msg{padding-top:70px;}
+.nav-head
+{ 
+    color: #fff;
+    padding: 25px 0 15px;
+    position: fixed;
+    transition: all 0.1s ease 0s;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-default{
+  background: transparent none repeat scroll 0 0;
+  border:none;
+}  
+.navbar-fixed-top
+{
+  background: rgb(122,126,133);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  padding-top: 5px;
+  z-index: 9999;
+  max-height: 55px; 
+  position:fixed !important;
+}
+.navbar-brand{padding: 0px; transition: none 0s ease 0.5s ;}
+.navbar-logo{position:absolute;}
+.navbar ul li a {
+    color: #fff !important;
+    font-size: 17px;
+    padding: 8px 15px;
+    transition: none 0s ease 0.5s ;
+}
+.nav-contact{
+  font-size:16px !important; 
+  font-weight:400 !important; 
+  padding: 12px;
+}
+
+.btn-nav{
+  border-radius:0;
+  border:1px #fff solid; 
+}
+.availability-fields-lable {
+  background-color: #d9edf7;
+  border-color: #bce8f1;color: #31708f;
+}
+
+.availability-padding{
+  padding-left: 1px !important;
+  padding-right: 1px !important;
+}
+
+.availability-text-right{
+  text-align: right !important;
+}
+
+home-page-select-box{
+  height: 47px !important;
+}
+.specialist-details{margin-bottom:30px;}
+.specialist-details-left{border-right:#ccc 1px solid;}
+.specialist-comment{margin-top:30px;}
+.specialist-behave
+{
+  border: #ccc 1px solid; padding:10px;width:70%; margin-left:15%;margin-bottom: 57px;
+
+ }
+ .specialist-behave ul li{font-size:18px; margin-top:2px;}
+ .specialist-behave ul
+  {
+    list-style-type: none;
+  }
+  .specialist-price{font-size:18px; background-color:#648900; border-radius:5px;}
+  .specialist-check{margin-left:20%;margin-top:60px;}
+  .acceptance-check{margin-top:30px;}
+
+.specialist-standard ul li{font-size:18px; margin-top:2px;}
+ .specialist-standard ul
+  {
+    list-style-type: none;
+  }
+
+#calendar {
+    width: 450px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.fc-toolbar .fc-center h2{
+  font-size: 13px !important;
+}
+
+.fc-toolbar {
+  margin-bottom: 1px !important;
+}
+.fc-header-title h2 {
+    font-size: 14px;
+    white-space: normal !important;
+}
+.fc-view-month .fc-event, .fc-view-agendaWeek .fc-event {
+    font-size: 0;
+    overflow: hidden;
+    height: 2px;
+}
+.fc-view-agendaWeek .fc-event-vert {
+    font-size: 0;
+    overflow: hidden;
+    width: 2px !important;
+}
+.fc-agenda-axis {
+    width: 20px !important;
+    font-size: .7em;
+}
+
+.fc-button-content {
+    padding: 0;
+}
+
+
+.has-error {
+    border: 1px red solid;
+}
+/**********Home Page***********/
+.top-heading{color:#fff;font-family: 'Montserrat', sans-serif; }
+.booking{
+  padding: 13px 55px;
+  display: block;
+  border-radius: 50px;
+  color:#fff;
+  background: rgb(31, 67, 129);
+  font-size:22px;
+  letter-spacing: 2px;
+}
+.booking:hover, .booking:focus{color:#fff;}
+.booking-btn{
+  padding: 10px;
+  display: block;
+  border-radius: 25px;
+  color:#fff;
+  background:rgb(31, 67, 129);
+  font-size:18px;
+}
+.search-specl
+{ 
+    width:100%;
+    min-height:120px;  
+}
+.searchbar-form{padding-top:50px;}
+.on{background-color: rgba(0, 0, 0, 0.6);}
+.home-top
+{
+  padding-top:30px;
+  background-image: url("../images/home_banner.min.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.searchbar-form .col-sm-3{padding:0px 0px;} 
+.searchbar-form .col-sm-2{padding:0px 0px;} 
+.input-group-addon,.search-glyph,#intervention-city,.form-datepicker,#time_slot,.form-submit-btn,#distance{ border-radius:0;height:46px !important;}
+.form-submit-btn{background:rgb(31, 67, 129); color:#fff; font-size:18px;}
+.search-glyph{height:46px;background:rgb(31, 67, 129);color:#fff;}
+.form-submit-btn{width:50%}
+
+@media(min-width:768px)
+{
+ #time_slot,.form-datepicker{border-left:0px #ccc solid;} 
+ #time_slot{border-right:1px;}
+ .top-heading{padding: 70px 0 100px;}
+}
+
+@media(max-width:767px)
+{
+  #datetimepicker1 {
+    margin-top: 15px;
+  }
+  .form-submit-btn{width:100%}
+}
+
+.about{
+    background:#d9dde9;
+    padding: 40px 0 !important;
+    z-index: 999;
+    position:relative;
+}
+.about .title {
+    color: #4d4d4d;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+.content .sub-title{color:#008cba}
+.about .intro {
+    margin: 0 auto 60px;
+    max-width: 800px;
+} 
+.about .item {
+    text-align: center;
+}
+.about .item .icon-holder .fa {
+    color: #4d4d4d;
+    font-size: 84px;
+}
+.emotion-reservation{
+  height: 80px;
+  margin-left: 7%;
+  width: 120px;
+}
+.emotion-analysis{
+  height: 80px;
+  margin-left: 6%;
+  width: 114px;
+}
+.emotion-review{
+  height: 80px;
+  margin-left: 2%;
+  width: 80px;
+}
+.features, .plan  {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position: 0 0;
+    color: #fff;
+    padding: 40px 0 !important;
+    z-index: 999;
+    position:relative;
+}
+.features .title {
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.features .holder {
+    padding-bottom: 70px;
+}
+.features .icn {
+    display: block;
+}
+.features .icn .fa {
+    color: #008cba;
+    font-size: 3.5em;
+}  
+
+.support {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #d9dde9;
+    background-origin: padding-box;
+    background-position: 0 0;
+    color: #4d4d4d;
+    padding: 40px 0 !important;
+    z-index: 999;
+    position:relative;
+}
+.support .title1,.support .title2 {
+    color: #4d4d4d;
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-align:center
+}
+.support .title2 {margin-top:15px;}
+.support-top hr{border-color:#b4b4b4; margin-top: -20px;width: 60%;}
+.support-list{font-size:22px; color:#4d4d4d;}
+.support-top p{font-size:20px;}
+.price
+{
+  background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position: 0 0;
+    color: #fff;
+    padding: 40px 0 !important;
+    z-index: 999;
+    position:relative;
+}
+.speclist-price{
+  color:rgb(31, 67, 129);
+  font-weight:400;
+  border: 2px solid #1f4381;
+  margin-left: 42%;
+  padding: 5px;
+  width: 16%;
+  }
+.contact
+{
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 40px 0 !important;
+  z-index: 999;
+  position:relative;
+}
+.social-icons 
+{
+list-style: outside none none;
+    margin-left: -5px;
+    padding-left: 0; 
+}
+
+.social-icons > li 
+{
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius:50%;
+  background-color:#fff;
+  color:#000;
+}
+.social-icons > li >i
+{
+  font-size: 32px;
+    padding: 12px 0;
+    width: 46px;
+}
+.social-icons .social-fa .fa {
+  line-height: 50px;
+  font-size:28px;
+  text-align: center;
+  background:fff;
+  color: #000;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  verticle-align:middle;
+}
+.social-fa .fa-twitter{padding:10px;border-radius:50%;}
+.btn-email-user{font-size:16px; padding:6px 0px; border:2px #fff solid; color:#fff; width:100px;}
+.btn-email-user:hover{color:#000; background-color:#fff;}
+/*******SEARCH SECTION*******/
+.search-section{padding-top:120px;margin: auto;}
+
+
+
+/********Search********/
+.search-result-specl img{margin:5px;}
+.price-lable
+{
+  background-color:#ccc;border-radius: 15px;
+  font-size: 20px;
+  padding: 26px 14px;
+}
