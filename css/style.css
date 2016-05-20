@@ -150,8 +150,10 @@ home-page-select-box{
 .has-error {
     border: 1px red solid;
 }
+#subscribe-specialist{margin-top:185px;}
 /**********Home Page***********/
 .top-heading{color:#fff;font-family: 'Montserrat', sans-serif; }
+.top-heading h1{color:#fff;text-shadow: 3px 2px 1px #000;}
 .booking{
   padding: 13px 55px;
   display: block;
@@ -269,7 +271,7 @@ home-page-select-box{
     color: #008cba;
     font-size: 3.5em;
 }
-
+.plan-desc span{color:#232323;}
 .support {
     background-attachment: scroll;
     background-clip: border-box;
