@@ -1,5 +1,6 @@
 body {
   font-family: 'Lato', sans-serif !important;
+  font-size: 16px;
 }
 
 .pt20{padding-top:20px;}
@@ -153,7 +154,7 @@ home-page-select-box{
 #subscribe-specialist{margin-top:185px;}
 /**********Home Page***********/
 .top-heading{color:#fff;font-family: 'Montserrat', sans-serif; }
-.top-heading h1,h2{color:#fff;text-shadow: 3px 2px 1px #000;}
+.top-heading h1{font-size: 37px;color:#fff;text-shadow: 3px 2px 1px #000;}
 .booking{
   padding: 13px 55px;
   display: block;
@@ -197,7 +198,7 @@ home-page-select-box{
 {
  #time_slot,.form-datepicker{border-left:0px #ccc solid;}
  #time_slot{border-right:1px;}
- .top-heading{padding: 70px 0 100px;}
+ .top-heading{padding: 185px 0 100px;}
 }
 
 @media(max-width:767px)
@@ -379,4 +380,7 @@ list-style: outside none none;
   background-color:#ccc;border-radius: 15px;
   font-size: 20px;
   padding: 26px 14px;
+}
+.span.text {
+  font-size: 17px;
 }
