@@ -56,7 +56,7 @@ body {
   position:fixed !important;
 }
 .navbar-brand{padding: 0px; transition: none 0s ease 0.5s ;}
-.navbar-logo{position:absolute;}
+.navbar-logo{position:absolute; text-shadow: ;}
 .navbar ul li a {
     color: #fff !important;
     font-size: 17px;
