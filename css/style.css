@@ -52,7 +52,7 @@ body {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   padding-top: 5px;
   z-index: 9999;
-  max-height: 55px;
+  max-height: 65px;
   position:fixed !important;
 }
 .navbar-brand{padding: 0px; transition: none 0s ease 0.5s ;}
@@ -183,7 +183,7 @@ home-page-select-box{
 .home-top
 {
   padding-top:30px;
-  background-image: url("../images/home_banner.jpg");
+  background-image: url("../images/new_banner.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -298,7 +298,7 @@ home-page-select-box{
 }
 .support .title2 {margin-top:15px;}
 .support-top hr{border-color:#b4b4b4; margin-top: -20px;width: 60%;}
-.support-list{font-size:22px; text-align: -webkit-left; margin-left: 260px; color:#4d4d4d;}
+.support-list{font-size:22px; color:#4d4d4d;}
 .support-top p{font-size:20px;}
 .price
 {
@@ -352,7 +352,7 @@ list-style: outside none none;
   background-color:#fff;
   color:#000;
 }
-.social-icons > li >i
+.social-icons > li > a > i
 {
   font-size: 32px;
     padding: 12px 0;
