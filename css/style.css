@@ -186,6 +186,7 @@ home-page-select-box{
   background-image: url("../images/new_banner.jpg");
   background-repeat: no-repeat;
   background-size:cover;
+  background-position: center center;
 }
 .searchbar-form .col-sm-3{padding:0px 0px;}
 .searchbar-form .col-sm-2{padding:0px 0px;}
@@ -311,15 +312,16 @@ home-page-select-box{
     z-index: 999;
     position:relative;
 }
+
 .speclist-price{
   color:rgb(31, 67, 129);
   font-weight:400;
-  border: 2px solid #1f4381;
-  margin-left: 42%;
+  border: 2px solid #1f4381; 
   padding: 5px;
-  width: 16%;
   font-family: "Montserrat";
+   margin: 0 auto;
   }
+
   .price2 {
     font-style: italic;
   }
@@ -389,4 +391,15 @@ list-style: outside none none;
 }
 .span.text {
   font-size: 17px;
+}
+@media(min-width:768px){
+  .email-btn-footer{margin-left: -90px;}
+  .subscription-bar{ margin-left: 30px}
+  .email-submit-btn{margin-left: -30px}
+}
+@media(max-width:767px){
+  .email-btn-footer{margin-top: 10px;width:100%;}
+  .subscription-bar{margin-left: 0px;}
+  .email-submit-btn{margin-left: 0px;margin: 8px 0;;width:100%;}
+  .top-heading h1{font-size: 28px;margin-top: 50px;}
 }
