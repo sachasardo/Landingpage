@@ -182,7 +182,7 @@ home-page-select-box{
 .on{background-color: rgba(0, 0, 0, 0.6);}
 .home-top
 {
-  padding-top:30px;
+  padding-top:40px;
   background-image: url("../images/new_banner.jpg");
   background-repeat: no-repeat;
   background-size:cover;
@@ -258,6 +258,7 @@ home-page-select-box{
     z-index: 999;
     position:relative;
 }
+
 .features .title {
     color: white;
     margin-bottom: 30px;
@@ -392,14 +393,19 @@ list-style: outside none none;
 .span.text {
   font-size: 17px;
 }
-@media(min-width:768px){
-  .email-btn-footer{margin-left: -90px;}
+.plan hr{
+    width:100%;
+    border-top: 1px solid #fff;
+}
+@media screen and (min-width:768px){
+  .email-btn-footer{margin-left: -30px;}
   .subscription-bar{ margin-left: 30px}
   .email-submit-btn{margin-left: -30px}
 }
-@media(max-width:767px){
+@media screen and (max-width:767px){
   .email-btn-footer{margin-top: 10px;width:100%;}
   .subscription-bar{margin-left: 0px;}
   .email-submit-btn{margin-left: 0px;margin: 8px 0;;width:100%;}
-  .top-heading h1{font-size: 28px;margin-top: 50px;}
+  .top-heading h1{font-size: 28px;margin-top: 65px;}
+  
 }
