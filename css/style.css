@@ -154,7 +154,8 @@ home-page-select-box{
 #subscribe-specialist{margin-top:185px;}
 /**********Home Page***********/
 .top-heading{color:#fff;font-family: 'Montserrat', sans-serif; }
-.top-heading h1{font-size: 37px;color:#fff;text-shadow: 3px 2px 20px #000;}
+.top-heading h1{font-size: 36px;color:#fff;text-shadow: 3px 2px 20px #000;}
+.top-heading h4{text-shadow: 3px 2px 20px #000;}
 .booking{
   padding: 13px 55px;
   display: block;
@@ -317,7 +318,7 @@ home-page-select-box{
 .speclist-price{
   color:rgb(31, 67, 129);
   font-weight:400;
-  border: 2px solid #1f4381; 
+  border: 2px solid #1f4381;
   padding: 5px;
   font-family: "Montserrat";
    margin: 0 auto;
@@ -407,5 +408,5 @@ list-style: outside none none;
   .subscription-bar{margin-left: 0px;}
   .email-submit-btn{margin-left: 0px;margin: 8px 0;;width:100%;}
   .top-heading h1{font-size: 28px;margin-top: 65px;}
-  
+  .booking {padding: 13px 10px;font-size: 16px;}
 }
